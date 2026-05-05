@@ -1,0 +1,29 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": ["restaurant", "item", "price"]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "restaurant": {
+                        "label": "Restaurant",
+                        "format": "text"
+                    },
+                    "item": {
+                        "label": "Menu Item",
+                        "format": "text"
+                    },
+                    "price": {
+                        "label": "Price",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
